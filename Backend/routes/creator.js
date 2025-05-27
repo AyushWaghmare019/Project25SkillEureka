@@ -1,6 +1,6 @@
 // routes/creator.js
 const express = require('express');
-const router = express.Router();
+import router from './routes';
 const auth = require('../middleware/auth');
 const role = require('../middleware/role');
 // Example: Creator-specific route
